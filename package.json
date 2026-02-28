@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "cd frontend && npm run build"
+  },
   "dependencies": {
     "@google/gemini-cli": "^0.31.0"
   }
