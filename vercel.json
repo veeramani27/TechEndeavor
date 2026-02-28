@@ -1,6 +1,10 @@
 {
-  "buildCommand": "npm install --prefix frontend && cd frontend && npm run build && cd ../backend && uv add -r requirements.txt ",
+  "buildCommand": "npm install --prefix frontend && cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
+  "installCommand": "npm install && cd backend && uv add -r requirements.txt",
+  "env": {
+    "PYTHONPATH": "/backend"
+  },
   "rewrites": [
     {
       "source": "/api/(.*)",
