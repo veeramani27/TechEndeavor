@@ -3,6 +3,7 @@
     "build": "cd frontend && npm run build"
   },
   "dependencies": {
-    "@google/gemini-cli": "^0.31.0"
+    "@google/gemini-cli": "^0.31.0",
+    "typescript": "^5.9.3"
   }
 }
